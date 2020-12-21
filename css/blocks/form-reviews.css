@@ -1,0 +1,97 @@
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: #FFF;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+    outline: none;
+    resize: none;
+}
+
+.form__input:focus {
+    border: 1px solid #F5170E;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 235px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.form__controls-title {
+    width: 36%;
+    color: #1A1B1E;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__reviews--color--black {
+    background: #2B2B2B;
+}
+
+.btn__reviews--color--black:hover {
+    background: #8E8E8E;
+    transition: all 1.5s ease-in;
+}
+
+.btn__reviews--color--red {
+    background: #F5170E;
+}
+
+.btn__reviews--color--red:hover {
+    background: #DA0100;
+    transition: all 1.5s ease-in;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+}

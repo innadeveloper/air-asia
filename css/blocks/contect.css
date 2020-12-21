@@ -1,0 +1,26 @@
+.hero__text-section {
+    width: 50%;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.35;
+    margin-bottom: 27px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.btn--color--ginger {
+    background: #F5170E;  
+}
+
+.btn--color--ginger:hover {
+    background: #DA0100;
+    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
+    transition: all 1.5s ease-in;
+}

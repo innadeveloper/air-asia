@@ -1,0 +1,29 @@
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link { 
+    color: #9A9A9A; 
+    font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+    content: "\00A0\002F\00A0";
+    color: #9A9A9A; 
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+}

@@ -1,0 +1,102 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.main-page-wrapper {
+    background: url("../../img/bg/pic-header.png") center top no-repeat, url("../../img/bg/pic-bottom.png") center bottom 250px no-repeat;
+    
+}
+
+.hero {
+    margin-bottom: 244px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 530px;
+}
+
+.section {
+    margin-bottom: 120px;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;   
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 18px 40px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
