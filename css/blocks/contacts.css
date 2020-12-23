@@ -23,21 +23,22 @@
 }
 
 .contacts__dropdown:hover .dropdown__menu {
-    left: 0;
+    right: 0;
     opacity: 1;
 }
 
 .dropdown__menu {
     position: absolute;
     background: #EDEDED;
-    padding: 15px 20px;
-    width: max-content;
+    padding: 10px 10px;
+    width: 160px;
     top: 100%;
-    margin-top: 15px;
+    margin-top: 9px;
     right: -9999px;
     opacity: 0;
     transition: opacity .5s;
     line-height: 1.8;
+    font-size: 13px;
     border-radius: 4px;
     border: 1px solid transparent;
 }
@@ -49,9 +50,9 @@
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 20px solid #EDEDED;
-    top: -15px;
-    right: 50px;  
+    border-bottom: 9px solid #EDEDED;
+    top: -10px;
+    right: 36px;  
 }
 
 .contacts__dropdown-list {
@@ -61,5 +62,6 @@
 
 .contacts__dropdown-item-font {
     font-weight: bold;
+    
 }
 
