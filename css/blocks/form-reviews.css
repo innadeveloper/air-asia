@@ -17,7 +17,7 @@
 }
 
 .form__input:focus {
-    border: 1px solid #F5170E;
+    border-color: #F5170E;
 }
 
 .form__input::placeholder {
@@ -46,6 +46,8 @@
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -10px;
+    margin-right: -10px;
 }
 
 .controls__item {
